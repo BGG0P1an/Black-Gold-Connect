@@ -2,11 +2,14 @@ BEGIN:VCARD
 VERSION:3.0
 N:Reitenbach;Chantale;;;
 FN:Chantale Reitenbach
-ORG:Black Gold Emergency Planners Inc. & BGGoPlan Inc.
+ORG:Black Gold Emergency Planners Inc.;BGGoPlan Inc.
 TITLE:Head of Operations & Strategy
-TEL;TYPE=WORK,VOICE:403-216-7052
+TEL;TYPE=WORK,VOICE:(403) 216-7052
+EMAIL;TYPE=WORK:chantaler@blackgolderp.com
 URL:https://www.blackgolderp.com
 URL:https://www.response.app
+URL:https://www.firemaster.ca
+URL:https://www.barrowsafety.com
 ADR;TYPE=WORK:;;Suite 212, 4000 4 Street SE;Calgary;AB;;Canada
 NOTE:Part of the FM Safety Services Family of Companies
 END:VCARD
