@@ -1,13 +1,22 @@
 BEGIN:VCARD
 VERSION:3.0
+
 N:Glenn;Tyson;;;
 FN:Tyson Glenn
+
 ORG:Black Gold Emergency Planners Inc.
 TITLE:Project Manager
-TEL;TYPE=WORK,VOICE:403-216-7052
-EMAIL;TYPE=WORK:tysong@blackgolderp.com
+
+TEL;TYPE=OTHER:(403) 216-7052
+TEL;TYPE=WORK:(403) 930-7072
+
+EMAIL;TYPE=INTERNET:tysong@blackgolderp.com
+
 URL:https://www.blackgolderp.com
 URL:https://www.response.app
-ADR;TYPE=WORK:;;Suite 212, 4000 4 Street SE;Calgary;AB;;Canada
-NOTE:Part of the FM Safety Services Family of Companies
+
+ADR;TYPE=WORK:;;Suite 212\, 4000 4 Street SE;Calgary;AB;;Canada
+
+NOTE:Part of the FM Safety Services Family of Companies.
+
 END:VCARD
