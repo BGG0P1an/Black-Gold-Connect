@@ -83,8 +83,8 @@ img {
 
 .nav {
     display: flex;
-    gap: 18px;
-    flex-wrap: wrap;
+    gap: 36px;
+    align-items:center;
 }
 
 .nav a {
