@@ -59,6 +59,8 @@ img {
   margin: 0 auto;
 }
 
+/* Header */
+
 .site-header {
   background: var(--black);
   border-bottom: 4px solid var(--gold);
@@ -120,6 +122,8 @@ img {
   color: var(--gold);
 }
 
+/* Hero */
+
 .hero {
   background:
     radial-gradient(circle at 75% 20%, rgba(198, 150, 83, 0.13), transparent 34%),
@@ -170,9 +174,12 @@ img {
   color: var(--gold);
 }
 
+/* Buttons */
+
 .button-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 14px;
   margin-top: 28px;
 }
@@ -228,6 +235,8 @@ img {
   color: var(--black);
 }
 
+/* Sections */
+
 .section {
   padding: 74px 0;
 }
@@ -248,6 +257,8 @@ img {
   color: var(--muted);
   margin-bottom: 34px;
 }
+
+/* Cards */
 
 .grid {
   display: grid;
@@ -312,6 +323,8 @@ img {
   color: var(--gold-dark);
 }
 
+/* Profile Pages */
+
 .profile {
   padding: 74px 0;
   background: var(--light);
@@ -358,9 +371,52 @@ img {
   margin-bottom: 30px;
 }
 
-.profile-card .button-row {
-  justify-content: center;
+/* This fixes the spacing between Office / Cell / Email and the details */
+
+.profile-details {
+  margin: 12px 0 28px;
+  text-align: center;
 }
+
+.profile-details p {
+  margin: 7px 0;
+  font-size: 1rem;
+}
+
+.profile-details strong {
+  display: inline-block;
+  min-width: 92px;
+  margin-right: 8px;
+  text-align: right;
+}
+
+.profile-details a {
+  color: var(--text);
+}
+
+.profile-details a:hover {
+  color: var(--gold-dark);
+}
+
+/* Contact Lists */
+
+.contact-list {
+  display: grid;
+  gap: 0;
+}
+
+.contact-list a {
+  display: block;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+  font-weight: 800;
+}
+
+.contact-list a:hover {
+  color: var(--gold-dark);
+}
+
+/* Team Cards */
 
 .initials {
   width: 64px;
@@ -393,21 +449,23 @@ img {
   margin-top: 0;
 }
 
-.contact-list {
-  display: grid;
-  gap: 0;
+/* Breadcrumb / Back Links */
+
+.breadcrumb {
+  margin: 30px auto 10px;
+  font-size: 0.95rem;
 }
 
-.contact-list a {
-  display: block;
-  padding: 14px 0;
-  border-bottom: 1px solid var(--border);
+.breadcrumb a {
+  color: var(--gold-dark);
   font-weight: 800;
 }
 
-.contact-list a:hover {
-  color: var(--gold-dark);
+.breadcrumb a:hover {
+  color: var(--black);
 }
+
+/* Footer */
 
 .footer {
   background: var(--black);
@@ -425,6 +483,8 @@ img {
   color: #d1d5db;
   font-size: 0.92rem;
 }
+
+/* Mobile */
 
 @media (max-width: 960px) {
   .nav-wrap {
@@ -453,6 +513,10 @@ img {
     height: 54px;
   }
 
+  .brand {
+    align-items: flex-start;
+  }
+
   .nav {
     gap: 14px;
     flex-wrap: wrap;
@@ -460,6 +524,10 @@ img {
 
   .hero {
     padding: 60px 0;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
   }
 
   .section {
@@ -480,5 +548,12 @@ img {
 
   .profile-card {
     padding: 30px 20px;
+  }
+
+  .profile-details strong {
+    display: block;
+    min-width: 0;
+    margin-right: 0;
+    text-align: center;
   }
 }
