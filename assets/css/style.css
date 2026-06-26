@@ -464,4 +464,24 @@ img {
     .btn {
         width: 100%;
     }
+.brand{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.brand-text{
+    display:flex;
+    flex-direction:column;
+}
+
+.brand-title{
+    color:white;
+    font-size:1.6rem;
+    font-weight:700;
+}
+
+.brand-subtitle{
+    color:#c7c7c7;
+    font-size:.85rem;
 }
