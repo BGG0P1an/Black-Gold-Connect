@@ -3,10 +3,11 @@ VERSION:3.0
 N:Mitterhuber;David;;;
 FN:David Mitterhuber
 ORG:Black Gold Emergency Planners Inc. & BGGoPlan Inc.
-TITLE:Senior Lead GIS Specialist
-TEL;TYPE=WORK,VOICE:403-216-7052
+TITLE:Senior Lead GIS
+TEL;TYPE=OTHER:(403) 216-7052 ext 1010
+EMAIL;TYPE=INTERNET:davidm@blackgolderp.com
 URL:https://www.blackgolderp.com
 URL:https://www.response.app
-ADR;TYPE=WORK:;;Suite 212, 4000 4 Street SE;Calgary;AB;;Canada
-NOTE:Part of the FM Safety Services Family of Companies
+ADR;TYPE=WORK:;;Suite 212\, 4000 4 Street SE;Calgary;AB;;Canada
+NOTE:Part of the FM Safety Services Family of Companies.
 END:VCARD
